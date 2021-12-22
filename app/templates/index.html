@@ -1,0 +1,57 @@
+<!-- Inspired by: https://codepen.io/CodingDecoding/pen/WNGOOLv -->
+
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<center> <h1> Random Video Generator: Casey Neistat</h1> </center>
+<section>
+  
+<div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt-scale="1.1">
+  <center>
+    
+    <a href={{url}}>
+      <img alt="video url" src={{thumbnail}}> 
+    </a>
+
+  
+    <a href={{url}}>
+      <h2>{{title}}</h2>
+    </a>
+    
+    <p>
+      <center>
+      Refresh the page for a new video!
+      </center>
+    </p>
+
+
+  </center>
+</div>
+</section>
+
+
+</body>
+<script src="{{ url_for('static', filename='script/tilt.js') }}"></script>
+
+<style>
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  </style>
+  
+  <div class="footer">
+    <p>Made with <span style="color: #e25555;">&hearts;</span> by <a href="https://github.com/tatianabarbone">@TatianaBarbone</a> </p>
+  </div>
+
+
+</html>
