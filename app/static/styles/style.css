@@ -51,7 +51,7 @@ section {
 }
 
 .card {
-  width: 250px;
+  width: 500px;
   height: auto;
   padding: 20px;
   background: linear-gradient(
@@ -68,7 +68,7 @@ section {
 
 
 .card img {
-  width: 150px;
+  width: 300px;
   border-radius: 50%;
 }
 
