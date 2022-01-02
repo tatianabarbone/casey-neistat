@@ -1,13 +1,13 @@
 # Casey Neistat Random YouTube Video Generator 🎥
 
+## UI Design
+![screenshot](/ui.png)
+
 ## About
-A [website](https://caseyneistatrandomvideo.pythonanywhere.com) that generates and displays a random Casey Neistat YouTube video. To generate another video, refresh the page. The UI is inspired by [CodingDecoding](https://codepen.io/CodingDecoding/pen/WNGOOLv).
+A simple [website](https://caseyneistatrandomvideo.pythonanywhere.com) that generates and displays a random Casey Neistat YouTube video. To generate another video, refresh the page. The UI is inspired by [CodingDecoding](https://codepen.io/CodingDecoding/pen/WNGOOLv).
 
 ## Demo
 The website is live at https://caseyneistatrandomvideo.pythonanywhere.com
-
-## UI Design
-![screenshot](/ui.png)
 
 ## Features
 - Python backend using [Flask](https://flask.palletsprojects.com/en/2.0.x/)
